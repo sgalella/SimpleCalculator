@@ -1,0 +1,78 @@
+.screen{
+    width:50%;
+    height:72px;
+    background-color: rgb(89, 93, 95);
+    font-size:25px;
+    color: White; 
+}
+
+.buttonContainer{
+    width: 50%;
+}
+
+.buttonContainer > .btnNum{
+    width: 10%;
+    height: 48px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+    background-color: rgb(130, 134, 136);
+    color: White; 
+}
+
+.buttonContainer > .btnCalc {
+    width: 10%;
+    height: 48px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+    background-color: rgb(106, 110, 112);
+    color: White; 
+}
+
+.buttonContainer > .btnOp {
+    width: 10%;
+    height: 48px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+    background-color: rgb(251, 159, 12);
+    color: White; 
+}
+
+/* Remove default blue shadow border if button is clicked
+Note: Not recommended for accessility reasons
+https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked
+*/
+
+.screen:active,
+.screen:focus,
+.screen:focus:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btnNum:active,
+.btnNum:focus,
+.btnNum:focus:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btnCalc:active,
+.btnCalc:focus,
+.btnCalc:focus:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btnOp:active,
+.btnOp:focus,
+.btnOp:focus:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
